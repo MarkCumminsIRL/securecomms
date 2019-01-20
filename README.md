@@ -1,4 +1,4 @@
 # Secure Communications 
-## Mark Cummins
-### Technological University Dublin
+### Mark Cummins
+#### Technological University Dublin
 
