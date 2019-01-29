@@ -47,7 +47,7 @@ Options
 >-c : complements the set of characters in string.i.e., operations apply to characters not in the given set\
 >-d : delete characters in the first set from the output.\
 >-s : Squeeze - replaces repeated characters listed in the set1 with single occurrence\
->-t : truncates set1\
+>-t : truncates set1
 
 Lets have a quick look at some examples of each to better understand what is going on.
 
