@@ -44,10 +44,10 @@ LOWER CASE LETTERS
 If we just pass SET1 and SET2 into to the tr command it will just convert any characters in SET1 into the equivalent character in SET2. However there are some additional options we can also use.
 
 Options
->-c : complements the set of characters in string.i.e., operations apply to characters not in the given set
->-d : delete characters in the first set from the output.
->-s : Squeeze - replaces repeated characters listed in the set1 with single occurrence
->-t : truncates set1
+>-c : complements the set of characters in string.i.e., operations apply to characters not in the given set\
+>-d : delete characters in the first set from the output.\
+>-s : Squeeze - replaces repeated characters listed in the set1 with single occurrence\
+>-t : truncates set1\
 
 Lets have a quick look at some examples of each to better understand what is going on.
 
