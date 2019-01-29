@@ -36,7 +36,7 @@ So go to the GitHub home page and sign-up for a [new account today](https://gith
 Git is not installed by default on our Ubuntu VM so we need to install it. So while connected to the Internet run the following command in your terminal to install Git on your system.
 
 ```bash
-$ sudo apt-get install git
+sudo apt-get install git
 ```
 
 We can verify we have Git successfully installed by using the version option.
@@ -52,8 +52,8 @@ Once our installation has successfully completed, the next thing to do is to set
 > Hint: Replace "user_name" and "email_id" with your own GitHub username and email.
 
 ```bash
-$ git config --global user.name "user_name"
-$ git config --global user.email "email_id"
+git config --global user.name "user_name"
+git config --global user.email "email_id"
 ```
 
 ### Cloning a repository
@@ -63,9 +63,9 @@ Now that we've created a GitHub account, installed and configured Git, we can st
 So to download a project and it's entire version history:
 
 ```bash
-$ mkdir College
-$ cd College
-$ git clone https://github.com/MarkCumminsIRL/securecomms.git
+mkdir College
+cd College
+git clone https://github.com/MarkCumminsIRL/securecomms.git
 ```
 
 >Hint: The previous command will create a securecomms folder inside the College folder. Feel free to create whatever directory structure to prefer personally.
@@ -73,8 +73,8 @@ $ git clone https://github.com/MarkCumminsIRL/securecomms.git
 If you ever want to update this repository, to make sure you have the latest version of the notes for example. you just need to change into the project folder and run the pull command to pull down all the latest updates.
 
 ```bash
-$ cd securecomms
-$ git pull
+cd securecomms
+git pull
 ```
 
 ### Initialising / creating a new repository
@@ -93,28 +93,28 @@ Initialized empty Git repository in /home/markc/MyFirstProject/.git/
 So here, MyFirstProject is the folder that is created and "init" makes the folder a GitHub repository. Now change into your new project folder and create a README file and enter some text like "this is my first git project". The README file is generally used to describe what the repository contains or what the project is all about. 
 
 ```bash
-$ cd MyFirstProject
-$ echo "This is my first git project" >> README
+cd MyFirstProject
+echo "This is my first git project" >> README
 ```
 
 Once we have finished our work in a particular project we want to upload or commit all the changes so that the version saved on GitHub is the same as our local version. To do this we normally want to add any files we've updated to a list of files for Git to commit to the online master copy. We can add files to the list one by one by using the command:
 
 ```bash
-$ git add Filename1
-$ git add Filename2
-$ etc.
+git add Filename1
+git add Filename2
+etc.
 ```
 
 Or we can simply add all files to the list that we need to commit using:
 
 ```bash
-$ git add --all
+git add --all
 ```
 
 It also best practice to add a message with each update, just a short message that highlights what changed in this update. 'Fixed bug in login' or similar. Again we can do this using the command:
 
 ```bash
-$ git commit -m "updated readme.md"
+git commit -m "updated readme.md"
 ```
 
 So once we have updated our list for all files that have changed or have been created, the last step is for us to actually upload those files to GitHub so that everything is up to date and in sync. We do this using the following commands.
@@ -122,8 +122,8 @@ So once we have updated our list for all files that have changed or have been cr
 > Hint: Change the URL in the following command to match your own account
 
 ```bash
-$ git remote add origin https://github.com/MarkCummins/MyFirstProject
-$ git push -u origin master
+git remote add origin https://github.com/MarkCummins/MyFirstProject
+git push -u origin master
 ```
 
 > Hint: This won't work.. check out the next sections for solutions.
@@ -137,8 +137,8 @@ So log-in to GitHub and create a new repository called 'MyFirstProject' then try
 > Hint: Do not initialize the repository with a README, .gitignore or License. Keep it blank
 
 ```bash
-$ git remote add origin https://github.com/MarkCummins/MyFirstProject
-$ git push -u origin master
+git remote add origin https://github.com/MarkCummins/MyFirstProject
+git push -u origin master
 ```
 
 > Hint: Once you have set the origin for a repo you can simply use the git push, or git pull commands to upload and download repos.
@@ -149,14 +149,14 @@ Having to log-into GitHub every time we want to create a new project can be a bi
 
 
 ```bash
-$ sudo snap install hub
-$ git config --global hub.protocol https
+sudo snap install hub
+git config --global hub.protocol https
 ```
 
 Once installed we now have some extra command line GitHub functionality. So to create a new repo from the command line and eliminate the need to manually do so in GitHub we simply change into the our new project folder and run the following:
 
 ```bash
-$ hub create
+hub create
 ```
 
 > Hint: We still need to perform all the other steps described earlier.
@@ -170,14 +170,14 @@ OK, We covered a lot of detail very quickly so lets recap by doing some exercise
 Create a new repository called 'Lab_1', add a README and a test.txt file and upload it to your GitHub account. So change out of our early repositories and lets create a new one.
 
 ```bash
-$ git init Lab_1
-$ cd Lab_1
-$ echo "some stuff" > README
-$ echo "a test file" > test.txt
-$ git add --all
-$ git commit -m "Initial commit: README and test.txt file"
-$ hub create
-$ git push -u origin master
+git init Lab_1
+cd Lab_1
+echo "some stuff" > README
+echo "a test file" > test.txt
+git add --all
+git commit -m "Initial commit: README and test.txt file"
+hub create
+git push -u origin master
 ```
 
 #### Exercise 2
@@ -185,7 +185,7 @@ $ git push -u origin master
 Log into your GitHub account, and confirm that the new repo has been created and that the two files have been uploaded. Edit one of the files on GitHub and also create a third file called test2.txt. Once done, update your local repository with any updates from GitHub.
 
 ```bash
-$ git pull
+git pull
 ```
 
 #### Exercise 3
@@ -193,9 +193,9 @@ $ git pull
 Finally Lets update and change some of the files locally and then push back up to the GitHub Server one last time.
 
 ```bash
-$ git add --all
-$ git commit -m "some updates"
-$ git push
+git add --all
+git commit -m "some updates"
+git push
 ```
 
 ### Fine tuning our workflow
@@ -212,7 +212,7 @@ Turn on the credential helper so that Git will save your password in memory for 
 In Terminal, enter the following:
 
 ```bash
-$ git config --global credential.helper cache
+git config --global credential.helper cache
 ```
 
 To change the default password cache timeout, enter the following:
