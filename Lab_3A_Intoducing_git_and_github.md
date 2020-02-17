@@ -1,4 +1,4 @@
-# Lab 1: Introduction to Git and GitHub
+# Lab 3A: Introduction to Git and GitHub
 
 In this lab we will learn how to setup and use the open-source version control software Git and the online repository storage from Github.
 
