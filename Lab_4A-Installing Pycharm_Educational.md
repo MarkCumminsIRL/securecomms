@@ -1,4 +1,4 @@
-# Lab 4B: Installing Pycharm Educational
+# Lab 4A: Installing Pycharm Educational
 
 In this lab we will download and install the PyCharm Edu IDE from JetBrains.com and complete their 'Introduction to Python' tutorial and exercises. The Introduction to Python course is specially designed for programmers with little or no previous coding experience, so you should be able to complete all of the exercises relatively quickly.
 
