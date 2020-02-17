@@ -1,4 +1,4 @@
-# Lab 2B: Classic Ciphers and the command line
+# Lab 3B: Classic Ciphers and the command line
 
 In this lab we will learn some basic linux bash commands. We will re-use some of our earlier lab on classic ciphers, but this time we will attempt to script the solution to each of the problems rather than using online tools.
 
