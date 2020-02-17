@@ -136,19 +136,36 @@ Create a new python file to try solve each of the following:
 
 In the previous labs we looked at using the tr command to create some basic rotational ciphers. Well lets step it up a notch and see if we can can create a single universal rotational cipher brute forcing tool.
 
-Your cipher should read in the character sets you wish to use (dec for rot5, alpha for rot13 or caesar,all for rot47) and then the ciphertext you wish to brute force. Your cipher should then print out all possible decodings of the ciphertext given.
+Your cipher should read in the character sets you wish to use ('dec' for rot5, 'alpha' for rot13 or caesar,'all' for rot47) and then the ciphertext you wish to brute force. Your cipher should then print out all possible decodings of the ciphertext given.
 
 
 ```bash
-$ python brute.py dec '1' 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0 
+$ python brute.py alpha 'Uryyb Jbeyq!' 
+
+Tqxxa Iadxp!
+Spwwz Hzcwo!
+Rovvy Gybvn!
+Qnuux Fxaum!
+Pmttw Ewztl!
+Olssv Dvysk!
+Nkrru Cuxrj!
+Mjqqt Btwqi!
+Lipps Asvph!
+Khoor Zruog!
+Jgnnq Yqtnf!
+Ifmmp Xpsme!
+Hello World!
+Gdkkn Vnqkc!
+Fcjjm Umpjb!
+Ebiil Tloia!
+Dahhk Sknhz!
+Czggj Rjmgy!
+Byffi Qilfx!
+Axeeh Phkew!
+Zwddg Ogjdv!
+Yvccf Nficu!
+Xubbe Mehbt!
+Wtaad Ldgas!
+Vszzc Kcfzr!
+
 ```
