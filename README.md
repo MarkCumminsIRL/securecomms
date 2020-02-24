@@ -1,12 +1,11 @@
 # Secure Communications 
 ### Mark Cummins
 #### Technological University Dublin  
----
-#### Course Lab Notes
-
 
 These notes and exercises are part of the Secure Communications module on the Digital Forensics and Cyber Security course at Technological University Dublin.
+---
 
+#### Course Lab Notes
 
 Lab 1A - Decoding Classic Ciphers  
 Lab 1B - Code Breaking Challenge  
