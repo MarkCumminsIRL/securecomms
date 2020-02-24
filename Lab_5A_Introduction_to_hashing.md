@@ -1,3 +1,10 @@
+| Secure Communications – Mark Cummins – TUDublin | 
+| ------ | 
+|These notes and exercises are part of the Secure Communications module on the Digital Forensics and Cyber Security course at Technological University Dublin. |
+
+
+
+
 # Lab 4B: Intro to Python with Pycharm
 
 In this lab we will create our first project using the PyCharm IDE and we'll also have a quick look at finding our way around. We'll then create some basic python scripts to start our python coding.
@@ -21,10 +28,9 @@ ___
 ### Creating a Project in PyCharm
 
 
-Secure Communications and Cryptography – Mark Cummins – ITB 1
+
 Hashing Lab 1 – Hash That Password
-These notes and exercises are part of the Secure Communications and Cryptography module on the Digital
-Forensics and Cyber Security courses at the Institute of Technology Blanchardstown, Dublin.
+
 1 Overview
 The learning objective of this lab is for students to get familiar with the concepts of creating and checking
 basic file hashes on your own system. After finishing the lab, students will gain first-hand experience on
