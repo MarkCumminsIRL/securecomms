@@ -1,6 +1,7 @@
 # Secure Communications 
 ### Mark Cummins
-#### Technological University Dublin
+#### Technological University Dublin  
+
 These notes and exercises are part of the Secure Communications module on the Digital Forensics and Cyber Security course at Technological University Dublin.
 ---
 
