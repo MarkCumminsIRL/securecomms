@@ -5,18 +5,18 @@
 
 #### Course Lab Notes
 
-1. Lab 1A - Decoding Classic Ciphers 
-2. Lab 1B - Code Breaking Challenge
-3. Lab 2A - Simplified OTP
-4. Lab 2B - Numbers Station Challenge
+Lab 1A - Decoding Classic Ciphers  
+Lab 1B - Code Breaking Challenge  
+Lab 2A - Simplified OTP  
+Lab 2B - Numbers Station Challenge  
 
-5. [Lab 3A - Introducing Git & GitHub] (Lab_3A_Intoducing_git_and_github.md)
-6. Lab 3B - Commandline Cipher Challenge
-7. Lab 4A - Introducing Pycharm Edu
-8. Lab 4B - Python Ciphers Challenge
+[Lab 3A - Introducing Git & GitHub] (Lab_3A_Intoducing_git_and_github.md)  
+Lab 3B - Commandline Cipher Challenge  
+Lab 4A - Introducing Pycharm Edu  
+Lab 4B - Python Ciphers Challenge  
 
-9. Lab 5A - Introducing Hashing
-10. Lab 5B - Breaking Salted Hashes Challenge
+Lab 5A - Introducing Hashing  
+Lab 5B - Breaking Salted Hashes Challenge  
 
 
 
