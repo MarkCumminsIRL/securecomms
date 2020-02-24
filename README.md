@@ -1,11 +1,12 @@
 # Secure Communications 
 ### Mark Cummins
 #### Technological University Dublin  
+---
+#### Course Lab Notes
+
 
 These notes and exercises are part of the Secure Communications module on the Digital Forensics and Cyber Security course at Technological University Dublin.
----
 
-#### Course Lab Notes
 
 Lab 1A - Decoding Classic Ciphers  
 Lab 1B - Code Breaking Challenge  
@@ -19,12 +20,6 @@ Lab 2B - Numbers Station Challenge
 
 [Lab 5A - Introduction to Hashing](Lab_5A_Introduction_to_hashing.md)  
 [Lab 5B - Breaking Salted Hashes Challenge](Lab_5B_Breaking_salted_hashes.md)  
-
-
-
-
-
-
 
 #### Running Labs (Use Linux)
 I'm running all labs on [Kali 2020.1](https://www.kali.org/downloads/) So you should have the latest version of Kali installed to follow along, but any current Linux distro should be fine also. While some of the labs can be easily run on Windows you are better in the long run creating a Linux VM and using it for all of the labs.
