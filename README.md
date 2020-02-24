@@ -11,12 +11,12 @@ Lab 2A - Simplified OTP
 Lab 2B - Numbers Station Challenge  
 
 [Lab 3A - Introducing Git & GitHub](Lab_3A_Intoducing_git_and_github.md)  
-Lab 3B - Commandline Cipher Challenge  
-Lab 4A - Introducing Pycharm Edu  
-Lab 4B - Python Ciphers Challenge  
+[Lab 3B - Commandline Cipher Challenge](Lab_3B_Commandline_Ciphers.md)  
+[Lab 4A - Introducing Pycharm Edu](Lab_4A_Installing%20Pycharm_Educational.md)  
+[Lab 4B - Python Ciphers Challenge](Lab_4B_Intro_to_PyCharm.md)  
 
-Lab 5A - Introducing Hashing  
-Lab 5B - Breaking Salted Hashes Challenge  
+[Lab 5A - Introduction to Hashing](Lab_5A_Introduction_to_hashing.md)  
+[Lab 5B - Breaking Salted Hashes Challenge](Lab_5B_Breaking_salted_hashes.md)  
 
 
 
