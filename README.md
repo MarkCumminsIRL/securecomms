@@ -10,7 +10,7 @@ Lab 1B - Code Breaking Challenge
 Lab 2A - Simplified OTP  
 Lab 2B - Numbers Station Challenge  
 
-[Lab 3A - Introducing Git & GitHub] (Lab_3A_Intoducing_git_and_github.md)  
+[Lab 3A - Introducing Git & GitHub](Lab_3A_Intoducing_git_and_github.md)  
 Lab 3B - Commandline Cipher Challenge  
 Lab 4A - Introducing Pycharm Edu  
 Lab 4B - Python Ciphers Challenge  
