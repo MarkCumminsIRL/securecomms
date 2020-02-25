@@ -16,23 +16,24 @@ ___
 1. Lab Environment
 2. Lab Tasks
     1. Investigating Basic Hashing
-3. Exploring the Windows
-    1. Run Window
-    2. Terminal Window
-    3. Python Console
-4. Passing Arguments to Python
-    - Using sys.argv
-6. Challenge Exercise for submission.
+    2. Investigating File Hashing
+    3. Investigating Hash collisions
+    4. Making a Hash of Password Security
+    5. Rainbow Tables
+    6. Salted Hashes
+    7. Crypto currencies are to blame!
+3. Submission
+
 
 ___
 
-#### 1. Lab Environment
+### 1. Lab Environment
 
 All labs have been tested and designed to use Kali Linux 2020.1, however most modern Linux distro should be very similar
 
-#### 2. Lab Tasks
+### 2. Lab Tasks
 
-##### 2.1 Investigating Basic Hashing
+#### 2.1 Investigating Basic Hashing
 Let's start by introducing the built in command line tools `md5sum` and `shasum`. Open up your own terminal and try calculating the both the MD5 and SHA1 hash for the string 'Hello World' 
 
 ```bash
@@ -42,7 +43,7 @@ kali@kali:~$ echo 'Hello World' | shasum
 648a6a6ffffdaa0badb23b8baf90b6168dd16b3a  - 
 ```
 
-##### 2.2 Investigating File Hashing
+#### 2.2 Investigating File Hashing
 To start this task, you should open your favorite text editor and create a file (hashme.txt) with the numbers 1 to 5 (one per line), as shown.
 
 File: hashme.txt  
@@ -71,7 +72,7 @@ ac3b060706cf8286fc07d015ab85df7375f7b7b0  hashme.txt
 6. If you changed the file name to hashme1.txt and recalculate the hashes, do you think the hashes will change? Test and see what actually happens.
 
 
-##### 2.3 Investigating Hash Collisions
+#### 2.3 Investigating Hash Collisions
 
 It has been shown that MD5, SHA1 are not collision resistant; as such both these hash functions are not suitable for applications like SSL certificates or digital signatures that rely on this property.
 
@@ -86,7 +87,7 @@ It has been shown that MD5, SHA1 are not collision resistant; as such both these
 8. As a forensic examiner how would you go about ensuring the integrity of your assets for a legal case?
 
 
-##### 2.4 Making a Hash of Password Security
+#### 2.4 Making a Hash of Password Security
 When we store any user’s information in a central location we are offering any would be attackers a large target to try and attack. Why spend time trying to guess a single user’s password details etc. when we could try get the password file/database and get them all for about the same work.
 
 There have been some very high profile leaks/hacks/robberies in recent years of large databases of user information. Some of these robberies have highlighted the need for those in charge of our data to protect it. Hashes are one way functions so even given the hashes it should be infeasible to get back the original password.
@@ -100,7 +101,7 @@ There have been some very high profile leaks/hacks/robberies in recent years of 
 5. Can you figure out what password string the previous hash represents?
 
 
-##### 2.5 Rainbow Tables
+#### 2.5 Rainbow Tables
 Great we’ve secured our new system, hashed all the passwords, our system is secure. Some hacker gets our list of user names and hashes but we can be confident that or site is still secure. Or can we?
 
 **Try these exercises before moving on:**
@@ -118,7 +119,7 @@ http://pastebin.com/1ca3BR19
 7. Try crack a few random passwords from this actual database dump.
 
 
-##### 2.6 Salted Hashes
+#### 2.6 Salted Hashes
 Rainbow tables mean that normal hashed passwords are no longer secure (they haven’t been for a long time) and we shouldn’t just be storing hashed passwords in our databases. The trick is to use a salt. Basically an impurity that we add to the password before we hash it which renders the rainbow tables useless.
 
 
@@ -129,7 +130,7 @@ password. Get the MD5 hash of the password ’qwerty’ using the salt `12312312
 4. Do we need to save the salt and the hash in our database or just the hash?
 5. If we save the salt and hash in our database doesn’t this allow the hacker to simply break the hash again?
 
-##### 2.7 Crypto currencies are to blame!
+#### 2.7 Crypto currencies are to blame!
 
 OK so using salted hashes is the current best practice when storing passwords in a database, but that's not quite the end of the story. Most common hash formats such as MD5 or SHA1 etc. were all chosen because of their speeds, newer algorithms can be even quicker, as all these algorithms were intended to hash large hard-disks full of data not really small passwords. 
 
@@ -138,6 +139,6 @@ The massive popularity of Bitcoin and other crypto currencies has also lead to t
 The solution? We should use hash algorithms that have been designed with passwords in mind. These algorithms are much slower (deliberately) to discourage brute forcing. Such algorithms include Argon2 and Bcrypt2. As an exercise look them up yourself.
 
 
-#### 3. Submission
+### 3. Submission
 For this Lab you DO NOT need to submit a lab report describing what you have done or what you have observed. However you should ensure you completely understand all tasks asked of you. If you do have
 any questions please don’t hesitate to ask. The goal of this lab is for you to understand all of the concepts discussed.
