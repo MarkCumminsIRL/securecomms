@@ -20,7 +20,7 @@ Lab 2B - Numbers Station Challenge
 [Lab 4B - Python Ciphers Challenge](Lab_4B_Intro_to_PyCharm.md)  
 
 [Lab 5A - Introduction to Hashing](Lab_5A_Introduction_to_hashing.md)  
-[Lab 5B - Breaking Salted Hashes Challenge](Lab_5B_Breaking_salted_hashes.md)  
+[Lab 5B - Breaking Salted Hashes Challenge](Lab_5B_Breaking_Salted_Hashes.md)  
 
 Lab 6 - MD5 Collision Attack Lab
 
