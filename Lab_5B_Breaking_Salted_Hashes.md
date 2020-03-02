@@ -40,12 +40,12 @@ Retrieve as much information as you can from the dump below for the Garda
 
 | Join_date | Username | Password | Role | Last_accessed | Pass_modified |
 | --------- | -------- | -------- | ---- | ------------- | ------------- |
-|2018-06-07|Sparky|0a735e179f7acdeffea63ef54659a98f4efb8707|Admin|2020-02-25|2020-01-09|
-|2019-06-03|Mark123|d679b4a951ce1e4d426f198d1394f365ca054431|user|2019-12-20|2019-06-03|
-|2018-09-02|superman|ac47ca5cbd7381881e460f2b4cc55f9aab4f6ef4|user|2020-01-12|2019-10-01|
-|2019-01-11|security|d8e2021cec8a5032343579debbd0b6e2ca397435|user|2019-12-07|2019-04-11|
-|2018-12-03|Tomtom|51b6e660ef3d546dd4c758a930f5261fcfba322f|user|2019-12-03|2018-01-03|
-|2019-04-11|JillC|ea6cb1ffbb1f56a5c5fd10201c71300feeb58680|user|2020-02-19|2019-12-20|
+|2018-06-07|Sparky|c277243d2d39de474f3070d5c673ed492cea1b9e|Admin|2020-02-25|2020-01-09|
+|2019-06-03|Mark123|7a1d64ffa965a52b420570aa4f4c6aa450870fea|user|2019-12-20|2019-06-03|
+|2018-09-02|superman|3450fd71d9702d3a7b835a1536a9ad2650eff209|user|2020-01-12|2019-10-01|
+|2019-01-11|security|0f295b9e67f362f1be3cd7d0b30d4f4007f88a0e|user|2019-12-07|2019-04-11|
+|2018-12-03|Tomtom|d71b12c1eb8bf31ca6d19344e2504b0d2916635e|user|2019-12-03|2018-01-03|
+|2019-04-11|JillC|335bcd081c21b75a3866262fc45545c880786054|user|2020-02-19|2019-12-20|
 
 
 ### 5. Submission
